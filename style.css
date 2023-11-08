@@ -1,0 +1,115 @@
+@media only screen and (max-width: 667px) {
+    
+
+
+    body {
+        background-image:url(/images/achtergrond\ moestuin\ website.jpg);
+        background-size:cover;
+        padding: 0em;
+        margin: 0em;
+    }
+
+    h1 {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background: #f2f0de;
+        padding: 15px; 
+        margin-top: 2em;
+        margin-right: 2em;
+        color: #334eac;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+
+    }
+
+    h2 {
+        border-radius: 25px;
+         background: #334eac;
+        padding: 20px;
+        margin-top: 5em;
+        margin-right: 2em;
+        margin-left: 2em;
+        color: #f2f0de;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    h3 {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        background: #f2f0de;
+        padding: 20px;
+        transition-property: padding;
+        transition-duration: 1s; 
+        margin-left: 6em;
+        margin-bottom: 2em;
+        color: #334eac;
+        position: absolute;
+        bottom: 8px;
+        right: 0px;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        
+    }
+
+    a {
+        color: #334eac;
+        text-decoration: none;
+    }
+    
+    h3:hover{
+        padding: 30px;
+    }
+
+    .flexbox {
+        display: flex;
+        justify-content: center;
+        
+        
+        
+
+    }
+
+    p { 
+        border-radius: 25px;
+        background: #334eac;
+        width: 120px;
+        height: 120px;
+        margin: 0.25em;
+        gap: 1em;
+        text-align: center;
+        padding-top: 0.75em;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: #f2f0de;
+
+    
+    }
+
+    .pvdw { 
+        border-radius: 25px;
+        background: #334eac;
+        width: 400px;
+        height: 120px;
+        margin: 1em;
+        gap: 4em;
+        text-align: center;
+        padding-top: 0.75em;
+        font-family: "bali-script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: #f2f0de;
+
+    
+    }
+    
+
+    
+}
